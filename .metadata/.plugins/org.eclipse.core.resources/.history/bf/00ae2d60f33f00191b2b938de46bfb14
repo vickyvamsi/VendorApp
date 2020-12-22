@@ -1,0 +1,102 @@
+package com.app.model;
+
+import java.util.List;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+import org.hibernate.annotations.GenericGenerator;
+@Entity
+@Table(name="emp_form")
+public class Employee {
+@Id
+@GeneratedValue(generator="abc")
+@GenericGenerator(name="abc",strategy="increment")
+@Column(name="Emp_Id")
+	private int eId;
+@Column(name="Emp_name")
+	private String eName;
+@Column(name="Emp_Fname")
+	private String eFName;
+@Column(name="Emp_Sal")
+	private double eSal;
+@Column(name="Emp_Email")
+	private String Email;
+@Column(name="Emp_Pwd")
+	private String pwd;
+@Column(name="Emp_gen")
+	private String eGenl;
+@Column(name="Emp_langs")
+	private List<String> langs;
+
+
+public Employee() {
+	super();
+}
+
+
+public int geteId() {
+	return eId;
+}
+
+
+public void seteId(int eId) {
+	this.eId = eId;
+}
+
+
+public String geteName() {
+	return eName;
+}
+
+
+public void seteName(String eName) {
+	this.eName = eName;
+}
+public String geteFName() {
+	return eFName;
+}
+public void seteFName(String eFName) {
+	this.eFName = eFName;
+}
+public double geteSal() {
+	return eSal;
+}
+public void seteSal(double eSal) {
+	this.eSal = eSal;
+}
+public String getEmail() {
+	return Email;
+}
+public void setEmail(String email) {
+	Email = email;
+}
+public String getPwd() {
+	return pwd;
+}
+public void setPwd(String pwd) {
+	this.pwd = pwd;
+}
+public String geteGenl() {
+	return eGenl;
+}
+public void seteGenl(String eGenl) {
+	this.eGenl = eGenl;
+}
+public List<String> getLangs() {
+	return langs;
+}
+public void setLangs(List<String> langs) {
+	this.langs = langs;
+}
+@Override
+public String toString() {
+	return "Employee [eId=" + eId + ", eName=" + eName + ", eFName=" + eFName
+			+ ", eSal=" + eSal + ", Email=" + Email + ", pwd=" + pwd
+			+ ", eGenl=" + eGenl + ", langs=" + langs + "]";
+}
+
+}

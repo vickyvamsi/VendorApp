@@ -1,0 +1,8 @@
+127.0.0.1 - - [16/Sep/2018:02:44:29 +0530] "GET / HTTP/1.1" 404 955
+0:0:0:0:0:0:0:1 - - [16/Sep/2018:02:44:31 +0530] "GET /GvkHospitalManagement/ HTTP/1.1" 404 1021
+0:0:0:0:0:0:0:1 - - [16/Sep/2018:02:45:02 +0530] "GET /GvkHospitalManagement/mvc/regManger HTTP/1.1" 404 1120
+0:0:0:0:0:0:0:1 - - [16/Sep/2018:02:45:03 +0530] "GET /favicon.ico HTTP/1.1" 404 988
+0:0:0:0:0:0:0:1 - - [16/Sep/2018:02:46:25 +0530] "GET /GvkHospitalManagement/mvc/regManger HTTP/1.1" 404 1120
+0:0:0:0:0:0:0:1 - - [16/Sep/2018:02:46:26 +0530] "GET /GvkHospitalManagement/mvc/regManger HTTP/1.1" 404 1120
+0:0:0:0:0:0:0:1 - - [16/Sep/2018:02:46:27 +0530] "GET /GvkHospitalManagement/mvc/regManger HTTP/1.1" 404 1120
+0:0:0:0:0:0:0:1 - - [16/Sep/2018:02:48:08 +0530] "GET /GvkHospitalManagement/mvc/regManger HTTP/1.1" 200 298

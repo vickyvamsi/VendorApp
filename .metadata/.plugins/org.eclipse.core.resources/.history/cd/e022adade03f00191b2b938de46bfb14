@@ -1,0 +1,49 @@
+package com.app.dao.impl;
+
+import java.util.List;
+
+import org.hibernate.criterion.DetachedCriteria;
+import org.hibernate.criterion.Projections;
+import org.hibernate.criterion.Restrictions;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.orm.hibernate3.HibernateTemplate;
+import org.springframework.stereotype.Repository;
+
+import com.app.dao.IEmployeeDao;
+import com.app.model.Employee;
+@Repository
+public class EmployeeDaoImpl implements IEmployeeDao {
+
+	/*@Autowired
+	private HibernateTemplate ht;*/
+	
+	@Override
+	public int saveEmp(Employee emp) {
+		return (int) ht.save(emp);
+	}
+
+	@Override
+	public void updateEmp(Employee emp) {
+			ht.update(emp);
+	}
+
+	@Override
+	public void deleteEmp(int eId) {
+		Employee e=new Employee();
+		e.seteId(eId);
+		ht.delete(e);
+	}
+
+	@Override
+	public Employee getEmpById(int eId) {
+		return ht.get(Employee.class,eId);
+	}
+
+	@Override
+	public List<Employee> getAllEmps() {
+		return ht.loadAll(Employee.class);
+	}
+
+	
+	
+}

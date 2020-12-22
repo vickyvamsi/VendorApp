@@ -1,0 +1,33 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>welcome to Spring MVC</h1>
+
+<center>
+<h2>Admin Registration Form</h2> <p><a href="viewAdmin">View Admin Records</a></p>
+	<form action="saveAdmin" method="post">
+	Admin Id:<input type="text" name="admId"/><br><br>
+	Admin Name:<input type="text" name="admName"/><br><br>
+	Admin Type :<input type="text" name="admType"/><br><br>
+	Admin Gender  :<input type="radio" name="admGender" value="Male"> MALE <input type="radio" name="admGender" value="Female"> FEMALE<br><br>
+	Admin DepartMent :<select name="admDept">-select-
+	<option value="MCA">MCA</option>
+	<option value="MBA">MBA</option>
+	<option value="MSc">MSc</option>
+	<option value="Mcom">Mcom</option>
+	<option value="Bsc">Bsc</option>
+	
+	</select><br><br>
+	Admin Salary :<input type="text" name="admsal"/><br><br>
+	<center><input type="submit" value="Submin"></center>
+	</form>
+</center>
+<center>${msg}</center>
+</body>
+</html>

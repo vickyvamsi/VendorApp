@@ -1,0 +1,5 @@
+127.0.0.1 - - [17/Nov/2018:11:44:12 +0530] "GET / HTTP/1.1" 404 955
+0:0:0:0:0:0:0:1 - - [17/Nov/2018:11:44:14 +0530] "GET /GvkHospitalManagement/ HTTP/1.1" 404 1021
+0:0:0:0:0:0:0:1 - - [17/Nov/2018:11:45:15 +0530] "GET /GvkHospitalManagement/mvc/showUser HTTP/1.1" 500 17031
+0:0:0:0:0:0:0:1 - - [17/Nov/2018:11:45:46 +0530] "GET /GvkHospitalManagement/mvc/ HTTP/1.1" 500 17031
+0:0:0:0:0:0:0:1 - - [17/Nov/2018:11:46:24 +0530] "GET /GvkHospitalManagement/ HTTP/1.1" 404 1021

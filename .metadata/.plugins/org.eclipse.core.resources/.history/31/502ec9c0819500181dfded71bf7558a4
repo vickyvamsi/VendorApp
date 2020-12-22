@@ -1,0 +1,40 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+    <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<center>
+<h2>Admin Registration Form</h2> 
+	<form action="UpdateRecord" method="post">
+	Admin Id:<input type="text" name="admId" value="${adm.admId}" readonly="readonly"/><br><br>
+	Admin Name:<input type="text" name="admName" value="${adm.admName}"/><br><br>
+	Admin Type :<input type="text" name="admType" value="${adm.admType}"/><br><br>
+	<c:choose>
+		<c:when test="${'Male' eq adm.admGender}">
+	Admin Gender  :<input type="radio" name="admGender value="Male" checked="checked"> MALE <input type="radio" name="admGender value="Female"> FEMALE<br><br>
+	</c:when>
+	<c:otherwise>
+	Admin Gender  :<input type="radio" name="admGender value="Male" > MALE <input type="radio" name="admGender value="Female" checked="checked"> FEMALE<br><br>
+	
+	</c:otherwise>
+	</c:choose>
+	Admin DepartMent :<select name="admDept" value="${adm.admDept}">-select-
+	<option value="MCA">MCA</option>
+	<option value="MBA">MBA</option>
+	<option value="MSc">MSc</option>
+	<option value="Mcom">Mcom</option>
+	<option value="Bsc">Bsc</option>
+	
+	</select><br><br>
+	Admin Salary :<input type="text" name="admsal" value="${adm.admsal}"/><br><br>
+	<center><input type="submit" value="Update"></center>
+	</form>
+</center>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:task="http://www.springframework.org/schema/task"
+	xmlns:p="http://www.springframework.org/schema/p" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/context 
+	http://www.springframework.org/schema/context/spring-context.xsd">
+	
+	<bean name="locExcelView" class="com.app.view.LocationExcelView"/>
+	<bean name="LocPdfView" class="com.app.view.LocationPdfView"/>
+	
+	<bean name="ExelViewData" class="com.app.view.VendorExcelView"/>
+	<bean name="PdfViewData" class="com.app.view.VendorPdfView"></bean>
+	
+	<bean name="custexcelViewData" class="com.app.view.CustomerExcelView"/>
+		<bean name="custPdfViewData" class="com.app.view.CusomerPdfView"/>
+	<bean name="ItemExcelData" class="com.app.view.ItemExcelView"/>
+	<bean name="ItemPdfData" class="com.app.view.ItemPdfView"/>
+	
+ 	</beans>

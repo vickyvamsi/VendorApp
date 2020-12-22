@@ -1,0 +1,40 @@
+package com.app.dao.impl;
+
+import java.util.List;
+
+import com.app.dao.IEmployeeDao;
+import com.app.model.Employee;
+
+public class EmployeeDaoImpl implements IEmployeeDao {
+
+	@Override
+	public int saveEmp(Employee emp) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void updateEmp(Employee emp) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void deleteEmp(int eId) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public Employee getEmpById(int eId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Employee> getAllEmps() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

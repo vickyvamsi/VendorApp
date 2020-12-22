@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=CollegeManagement/D:\/VendorApp\/CollegeManagement\/WebContent\/WEB-INF\/lib\/spring-webmvc-3.2.5.RELEASE.jar&lt;org.springframework.web.servlet.view(InternalResourceViewResolver.class[InternalResourceViewResolver" modifiers="33" timestamp="1535038987191"/>
+<typeInfo handle="=CollegeManagement/D:\/VendorApp\/CollegeManagement\/WebContent\/WEB-INF\/lib\/ojdbc14.jar&lt;oracle.jdbc(OracleDriver.class[OracleDriver" modifiers="33" timestamp="1535038981976"/>
+<typeInfo handle="=CollegeManagement/D:\/VendorApp\/CollegeManagement\/WebContent\/WEB-INF\/lib\/hibernate3.jar&lt;org.hibernate.dialect(OracleDialect.class[OracleDialect" modifiers="1048609" timestamp="1535038978693"/>
+<typeInfo handle="=CollegeManagement/src&lt;com.app.dao{IStudentDao.java[IStudentDao" modifiers="513" timestamp="1536080156128"/>
+<typeInfo handle="=CollegeManagement/src&lt;com.app.dao{IAdminDao.java[IAdminDao" modifiers="513" timestamp="1535896837390"/>
+<typeInfo handle="=CollegeManagement/src&lt;com.app.service{IStudentService.java[IStudentService" modifiers="513" timestamp="1536080178040"/>
+<typeInfo handle="=CollegeManagement/D:\/VendorApp\/CollegeManagement\/WebContent\/WEB-INF\/lib\/spring-context-support-3.2.5.RELEASE.jar&lt;org.springframework.mail.javamail(JavaMailSenderImpl.class[JavaMailSenderImpl" modifiers="33" timestamp="1535038983207"/>
+<typeInfo handle="=CollegeManagement/D:\/VendorApp\/CollegeManagement\/WebContent\/WEB-INF\/lib\/spring-webmvc-3.2.5.RELEASE.jar&lt;org.springframework.web.servlet(DispatcherServlet.class[DispatcherServlet" modifiers="33" timestamp="1535038987191"/>
+<typeInfo handle="=CollegeManagement/C:\/Program Files\/Java\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;javax.xml.stream(XMLResolver.class[XMLResolver" modifiers="1537" timestamp="1532338836944"/>
+<typeInfo handle="=CollegeManagement/D:\/VendorApp\/CollegeManagement\/WebContent\/WEB-INF\/lib\/spring-webmvc-3.2.5.RELEASE.jar&lt;org.springframework.web.servlet.view(XmlViewResolver.class[XmlViewResolver" modifiers="33" timestamp="1535038987191"/>
+<typeInfo handle="=GvkHospitalManagement/D:\/VendorApp\/GvkHospitalManagement\/WebContent\/WEB-INF\/lib\/spring-webmvc-3.2.5.RELEASE.jar&lt;org.springframework.web.servlet(DispatcherServlet.class[DispatcherServlet" modifiers="33" timestamp="1537044356580"/>
+<typeInfo handle="=GvkHospitalManagement/D:\/VendorApp\/GvkHospitalManagement\/WebContent\/WEB-INF\/lib\/spring-webmvc-3.2.5.RELEASE.jar&lt;org.springframework.web.servlet.view(InternalResourceViewResolver.class[InternalResourceViewResolver" modifiers="33" timestamp="1537044356580"/>
+<typeInfo handle="=GvkHospitalManagement/D:\/VendorApp\/GvkHospitalManagement\/WebContent\/WEB-INF\/lib\/spring-jdbc-3.2.5.RELEASE.jar&lt;org.springframework.jdbc.datasource(DriverManagerDataSource.class[DriverManagerDataSource" modifiers="33" timestamp="1537044354685"/>
+<typeInfo handle="=GvkHospitalManagement/D:\/VendorApp\/GvkHospitalManagement\/WebContent\/WEB-INF\/lib\/hibernate3.jar&lt;org.hibernate.cfg(AnnotatedClassType.class[AnnotatedClassType" modifiers="16433" timestamp="1537044349092"/>
+<typeInfo handle="=CollegeManagement/D:\/VendorApp\/CollegeManagement\/WebContent\/WEB-INF\/lib\/spring-orm-3.2.5.RELEASE.jar&lt;org.springframework.orm.hibernate3(HibernateTemplate.class[HibernateTemplate" modifiers="33" timestamp="1535038985469"/>
+<typeInfo handle="=GvkHospitalManagement/src&lt;com.app.dao{AdminDao.java[AdminDao" modifiers="513" timestamp="1538207833975"/>
+<typeInfo handle="=GvkHospitalManagement/src&lt;com.app.service{IAdminService.java[IAdminService" modifiers="513" timestamp="1538207791651"/>
+<typeInfo handle="=GvkHospitalManagement/src&lt;com.app.service{IStudentService.java[IStudentService" modifiers="513" timestamp="1540287618696"/>
+<typeInfo handle="=MyProject/D:\/VendorApp\/MyProject\/WebContent\/WEB-INF\/lib\/spring-webmvc-portlet-3.2.5.RELEASE.jar&lt;org.springframework.web.portlet.multipart(CommonsPortletMultipartResolver.class[CommonsPortletMultipartResolver" modifiers="33" timestamp="1536230793421"/>
+<typeInfo handle="=GvkHospitalManagement/src&lt;com.app.dao{IDocumentDao.java[IDocumentDao" modifiers="513" timestamp="1540636640521"/>
+<typeInfo handle="=GvkHospitalManagement/src&lt;com.app.service{IDocumentService.java[IDocumentService" modifiers="513" timestamp="1540636696542"/>
+<typeInfo handle="=CollegeManagement/D:\/VendorApp\/CollegeManagement\/WebContent\/WEB-INF\/lib\/spring-web-3.2.5.RELEASE.jar&lt;org.springframework.web.multipart.commons(CommonsMultipartFile.class[CommonsMultipartFile" modifiers="33" timestamp="1535038987025"/>
+<typeInfo handle="=GvkHospitalManagement/src&lt;com.app.service{IUserService.java[IUserService" modifiers="513" timestamp="1540810431077"/>
+<typeInfo handle="=GvkHospitalManagement/src&lt;com.app.service{IManagerService.java[IManagerService" modifiers="513" timestamp="1541523488386"/>
+<typeInfo handle="=CollegeManagement/D:\/VendorApp\/CollegeManagement\/WebContent\/WEB-INF\/lib\/spring-orm-3.2.5.RELEASE.jar&lt;org.springframework.orm.hibernate3(HibernateTransactionManager.class[HibernateTransactionManager" modifiers="33" timestamp="1535038985469"/>
+<typeInfo handle="=GvkHospitalManagement/D:\/VendorApp\/GvkHospitalManagement\/WebContent\/WEB-INF\/lib\/spring-security-core-3.2.5.RELEASE.jar&lt;org.springframework.security.core.userdetails(User.class[User" modifiers="33" timestamp="1542115844132"/>
+<typeInfo handle="=GvkHospitalManagement/src&lt;com.app.dao{IEmployeeDao.java[IEmployeeDao" modifiers="513" timestamp="1543408979861"/>
+<typeInfo handle="=GvkHospitalManagement/src&lt;com.app.service{IEmployeeService.java[IEmployeeService" modifiers="513" timestamp="1543409356567"/>
+<typeInfo handle="=CollegeManagement/D:\/VendorApp\/CollegeManagement\/WebContent\/WEB-INF\/lib\/spring-jdbc-3.2.5.RELEASE.jar&lt;org.springframework.jdbc.datasource(DriverManagerDataSource.class[DriverManagerDataSource" modifiers="33" timestamp="1535038985179"/>
+<typeInfo handle="=CollegeManagement/D:\/VendorApp\/CollegeManagement\/WebContent\/WEB-INF\/lib\/spring-orm-3.2.5.RELEASE.jar&lt;org.springframework.orm.hibernate3.annotation(AnnotationSessionFactoryBean.class[AnnotationSessionFactoryBean" modifiers="33" timestamp="1535038985469"/>
+<typeInfo handle="=RailYatraCommunication/src&lt;com.app.dao{IEmployeeDao.java[IEmployeeDao" modifiers="513" timestamp="-1"/>
+<typeInfo handle="=RailYatraCommunication/src&lt;com.app.service{IEmployeeService.java[IEmployeeService" modifiers="513" timestamp="-1"/>
+</typeInfoHistroy>

@@ -1,0 +1,11 @@
+127.0.0.1 - - [12/Nov/2018:18:15:32 +0530] "GET / HTTP/1.1" 404 955
+0:0:0:0:0:0:0:1 - - [12/Nov/2018:18:15:33 +0530] "GET /GvkHospitalManagement/ HTTP/1.1" 404 1021
+0:0:0:0:0:0:0:1 - - [12/Nov/2018:18:16:30 +0530] "GET /GvkHospitalManagement/mvc/showManagerRegPage HTTP/1.1" 200 1060
+0:0:0:0:0:0:0:1 - - [12/Nov/2018:18:16:30 +0530] "GET /favicon.ico HTTP/1.1" 404 988
+0:0:0:0:0:0:0:1 - - [12/Nov/2018:18:19:09 +0530] "POST /GvkHospitalManagement/mvc/saveManager HTTP/1.1" 200 1126
+0:0:0:0:0:0:0:1 - - [12/Nov/2018:18:24:56 +0530] "POST /GvkHospitalManagement/mvc/saveManager HTTP/1.1" 200 1126
+127.0.0.1 - - [12/Nov/2018:20:35:44 +0530] "GET / HTTP/1.1" 404 955
+0:0:0:0:0:0:0:1 - - [12/Nov/2018:20:35:45 +0530] "GET /GvkHospitalManagement/ HTTP/1.1" 404 1021
+0:0:0:0:0:0:0:1 - - [12/Nov/2018:20:36:47 +0530] "GET /GvkHospitalManagement/mvc/showManagerRegPage HTTP/1.1" 200 1060
+0:0:0:0:0:0:0:1 - - [12/Nov/2018:20:37:09 +0530] "POST /GvkHospitalManagement/mvc/saveManager HTTP/1.1" 200 1126
+0:0:0:0:0:0:0:1 - - [12/Nov/2018:20:37:53 +0530] "POST /GvkHospitalManagement/mvc/saveManager HTTP/1.1" 200 1126

@@ -1,0 +1,124 @@
+package com.app.model;
+
+import java.util.List;
+
+import javax.persistence.CollectionTable;
+import javax.persistence.Column;
+import javax.persistence.ElementCollection;
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToMany;
+import javax.persistence.Table;
+
+import org.hibernate.annotations.Fetch;
+import org.hibernate.annotations.FetchMode;
+import org.hibernate.annotations.IndexColumn;
+
+@Entity
+@Table(name="Stu_Report")
+public class Student {
+
+	@Id
+	@Column(name="s_Id")
+	private int stdId;
+	@Column(name="s_Name")
+	private String stdName;
+	@Column(name="s_Gender")
+	private String gender;
+	@Column(name="s_Fees")
+	private double stdFees;
+	@Column(name="s_Addr")
+	private String stdAddr;
+	@Column(name="s_Cource")
+	private String stdCourse;
+	@Column(name="s_Clg")
+	private String stdClg;
+	@ElementCollection
+	@CollectionTable(name="std_Langues", joinColumns=@JoinColumn(name="s_Id"))
+	@IndexColumn(name="s_Index")
+	@Column(name="s_Lang")
+	@OneToMany(fetch=FetchType.EAGER)
+	private List<String> stdLang;
+	
+	public Student() {
+		super();
+	}
+	//Default Constructor
+	public int getStdId() {
+		return stdId;
+	}
+	// one Arg Constructor
+	public void setStdId(int stdId) {
+		this.stdId = stdId;
+	}
+	
+	// Parameter Constructor
+	
+	public String getStdName() {
+		return stdName;
+	}
+	public Student(int stdId, String stdName, String gender, double stdFees,
+			String stdAddr, String stdCourse, String stdClg,
+			List<String> stdLang) {
+		super();
+		this.stdId = stdId;
+		this.stdName = stdName;
+		this.gender = gender;
+		this.stdFees = stdFees;
+		this.stdAddr = stdAddr;
+		this.stdCourse = stdCourse;
+		this.stdClg = stdClg;
+		this.stdLang = stdLang;
+	}
+	public void setStdName(String stdName) {
+		this.stdName = stdName;
+	}
+	public String getGender() {
+		return gender;
+	}
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
+	public double getStdFees() {
+		return stdFees;
+	}
+	public void setStdFees(double stdFees) {
+		this.stdFees = stdFees;
+	}
+	public String getStdAddr() {
+		return stdAddr;
+	}
+	public void setStdAddr(String stdAddr) {
+		this.stdAddr = stdAddr;
+	}
+	public String getStdCourse() {
+		return stdCourse;
+	}
+	public void setStdCourse(String stdCourse) {
+		this.stdCourse = stdCourse;
+	}
+	public String getStdClg() {
+		return stdClg;
+	}
+	public void setStdClg(String stdClg) {
+		this.stdClg = stdClg;
+	}
+	
+	public List<String> getStdLang() {
+		return stdLang;
+	}
+	public void setStdLang(List<String> stdLang) {
+		this.stdLang = stdLang;
+	}
+	@Override
+	public String toString() {
+		return "Student [stdId=" + stdId + ", stdName=" + stdName + ", gender="
+				+ gender + ", stdFees=" + stdFees + ", stdAddr=" + stdAddr
+				+ ", stdCourse=" + stdCourse + ", stdClg=" + stdClg
+				+ ", stdLang=" + stdLang + "]";
+	}
+	
+	
+}
