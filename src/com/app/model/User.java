@@ -7,9 +7,6 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 import org.hibernate.annotations.GenericGenerator;
-
-
-
 @Entity
 @Table(name="user_Details")
 public class User {
