@@ -16,7 +16,6 @@ public class User {
 	@GeneratedValue(generator="usrgen")
 	@GenericGenerator(name="usrgen",strategy="increment")
 	private int userId;
-
 	@Column(name="u_name")
 	private String userName;
 	@Column(name="u_mail")
@@ -27,6 +26,7 @@ public class User {
 	private String userPwd;
 	@Column(name="u_addr")
 	private String userAddr;
+
 
 	public User() {
 		super();
